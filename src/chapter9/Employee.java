@@ -7,8 +7,12 @@ public class Employee extends Person {
 
 	public Employee()
 	{
-		super("Samir");
+//		super("Samir");
 		System.out.println("In employee default constructor.");
+	}
+	
+	public Employee(String name)
+	{
 	}
 	
 	public String getEmployeeID() {

@@ -4,15 +4,21 @@ public class TextProcessor {
 
 	public static void main(String[] args) {
 
-		countWords("I Love Test Automation university");
+//		countWords("I Love Test Automation university");
 //		reverseString("Hello TAU!");
-		//addSpaces("HelloWorld!It'sMeMohamed");
-		String x = "avacado";
-		var y = x.split("a");
-		for (int i = 0; i < y.length; i++) {
-			System.out.print(y[i]);
-
-		}
+//		addSpaces("HelloWorld!It'sMeMohamed");
+//		String x = "avacado";
+//		var y = x.split("a");
+//		for (int i = 0; i < y.length; i++) {
+//			System.out.print(y[i]);
+//
+//		}
+		
+		String text = "Hello TAU!";
+		var reverse = new StringBuilder(text);
+		var reversedtext = reverse.reverse();
+		System.out.println(reversedtext);
+		
 	}
 
 	/**

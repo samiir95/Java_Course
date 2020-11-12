@@ -10,9 +10,9 @@ public class EceptionHandling {
 	public static void main(String[] args) throws NoOvertimeAllowedEception  {
 
 //		createNewFile();
-//		numbersExceptionHandling();
+		numbersExceptionHandling();
 //		createNewFileRethrow();
-		calculateSalary(40, 10);
+//		calculateSalary(40, 10);
 	}
 
 	public static void calculateSalary(double hours, double rate) throws NoOvertimeAllowedEception  {

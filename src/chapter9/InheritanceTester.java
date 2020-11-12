@@ -9,11 +9,16 @@ public class InheritanceTester {
 //		
 //		Square square = new Square();
 //		square.print("square");
-		
+//		
+//		square.calculatePerimeter();
+//		rectangle.calculatePerimeter();
+//		
 		Mother mom = new Mother();
 		mom.setName("kawthar");
 		
 		System.out.println(mom.getName() + " is a "+ mom.getGender());
+		
+//		Employee ex  = new Employee("ddd");
 		
 	}
 

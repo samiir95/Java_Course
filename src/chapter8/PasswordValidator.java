@@ -7,6 +7,8 @@ public class PasswordValidator {
 	 private String username;
 	    private String currentPassword;
 
+	    
+	    
 	    private boolean valid;
 	    private String errorMessage;
 

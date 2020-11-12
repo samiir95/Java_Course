@@ -12,6 +12,7 @@ public class Rectangle {
 		width = 0;
 	}
 	
+	
 	public Rectangle(double length, double width)
 	{
 		this.length = length; //Can be set this way

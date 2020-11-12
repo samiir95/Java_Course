@@ -14,10 +14,13 @@ public class Greetings {
 		    Scanner scanner = new Scanner(System.in);
 		    String name = scanner.next();
 		    scanner.close();
-		    greetUser(name); //Calling method by method signature
+//		    greetUser(name); //Calling method by method signature
+		    Greetings obj = new Greetings();
+		    obj.greetUser(name);
+		    
 	}
 
-	public static void greetUser(String name) // method header
+	public  void greetUser(String name) // method header
 	{
 		System.out.println("Hi there, " + name); // method body
 	}
